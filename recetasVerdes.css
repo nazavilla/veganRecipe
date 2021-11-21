@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+.first_logo{
+    border-radius: 85%;
+}
+
+.body1 {
+    background-color: #fdfbfb;
+}
+
+.grid-container{
+    max-width: 200px;
+    margin: auto;
+}
+
+.section1{
+    padding: 11px;
+}
+
+.navbar{
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 100%;;
+    border-bottom-style: groove;
+    height: 100px;
+}
+
+.social_media_home{
+    display:flex;
+    justify-content: flex-end;
+    height: 8px;
+    padding: 25px;
+}
+
+
+.Ig_home_image{
+    height: 56px;
+}
+
+.twitter_image{
+    height: 56px;
+}
+
+
+.max-width {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #505f2e;
+    font-size: xx-large;
+    text-decoration: none;
+
+}
+
+.logo_home_erve{
+    border-radius: 50%;
+    height: 80px;
+}
+
+
+.menu {
+    font-size: x-large;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px ;
+    font-weight: bolder;
+    align-items: center;
+
+
+}
+
+.home_title{
+    color: #567a3b;;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.sobre_mi_title {
+    color:#567a3b;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.mundoGeek{
+    color:#567a3b;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.VidaSustentable{
+    color:#567a3b;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.search {
+    flex: 1;
+    list-style-type: none;
+    text-decoration: none;
+    background: white;
+}
+
+.main{
+    background-color: white;
+}
+
+.Recipescover{
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+    margin: auto;
+}
+
+
+.coverName{
+    font-size: 7vw;
+    line-height: 8vw;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    background-image: url("recetasVerdesSiembra.jpg");
+    background-size: 40%;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0.08);
+    animation: zoomout 10s ease 500ms forwards;
+    
+}
+      
+
+    @keyframes zoomout {
+    from {
+        background-size: 40%;
+    }
+    to {
+        background-size: 10%;
+    }
+  }
+
+
+.coverHeadline{
+    color: #5f6a46;
+    font-family: monospace;
+    text-align: end;
+    font-size: 2em;
+
+}
+
+.recetaCompleta{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+#FunnyPhrase{
+    color: #82573a;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.ingredient-card{
+    background-color: #a09c7c29;
+    border-radius: 50px;
+    width: 20%;
+    margin: 100px 0px 100px 20px;
+    line-height: 2;
+    padding: 30px;
+    border: 9px solid #2d4e2d;
+    transform: rotate(
+-5deg);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2d4e2d;
+    height:700px;
+}
+
+.ingredient-card h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ingredient-card ul{
+    list-style: none;
+}
+
+.Dry{
+    text-decoration: overline;
+    text-align: left;
+    border-bottom: 1px solid #2d4e2d;
+}
+
+.receta-main{
+    position: relative;
+    text-align: center;  
+
+}
+
+.receta-main img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.receta-main-description{
+position: absolute;
+top: 62%;
+left: 55%;
+transform: translate(-50%, -50%);
+font-size:60px;
+  letter-spacing:0.1em;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-color: #2d4a1d;
+text-shadow: 
+                      8px 8px #2d4e2d,
+                      20px 20px #82573a;
+
+}
+
+.receta-main-description p{
+    font-style: italic;
+    color: #2d4a1d;
+}
+
+
+
+.preparation-card{
+    margin-right: 200px;
+    width: 45%;
+    margin-top: 50px;    
+    line-height: 2;
+    font-size: 1.1rem;
+    color: #5a412f;
+    background-color: #f7f4ef;
+    margin-bottom: 50px;
+}
+
+
+.preparation-card h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.preparation-4{
+    padding: 25px;
+    font-weight: 600;
+}
+
+
+
+.otras-recetas{
+    padding: 0 50px 40px;
+    font-size: 12px;
+}
+
+.grid-container2{
+    color: #3F4122;
+    text-decoration: none;
+
+}
+
+.otras-recetas h2{
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: .15em;
+    font-size: 25px;
+    margin-top: 91px;
+    color: #2d4a1d;
+    
+}
+
+.otras-recetas .receta{
+    display: inline-block;
+    max-width: 40%;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.otras-recetas .receta p{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d4a1d;
+}
+
+.otras-recetas .receta img{
+    width: 60%;
+    box-shadow: 6px 7px 11px #0000005e;
+}
+
+.gummyBearImg{
+    border-radius: 50%;
+}
+
+.leerMas{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3e5a3e;
+    margin-left: 4em;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+
+
+
+.footer{
+    background-image: url(recetasVerdesBackgroundIdea.png);
+    background-position: center;
+    height: 80px;
+    font-size: medium;
+    display: flex;
+    justify-content: space-around;
+    border-top-style: groove;
+} 
+
+.footer-logo{
+    height: 52%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 81%;
+
+}

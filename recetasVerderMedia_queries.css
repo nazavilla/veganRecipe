@@ -1,0 +1,77 @@
+@media(max-width: 1000px){
+    .navbar{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 200px;
+    }
+
+    .max-width{
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        height: 500px;
+    }
+
+    .max-width h5 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .centerOfPortada{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        height: 800px;
+    }
+
+    .receta-main img{
+        width:140%;
+    }
+
+    
+
+    .preparation-card{
+        margin-right: 10px;
+        width: 60%;
+        margin-top: 20px;    
+        line-height: 2;
+        font-size: 1.1rem;
+        color: #5a412f;
+        background-color: #f7f4ef;
+        margin-bottom: 50px;
+    }
+    
+    .ingredient-card{
+        width: 40%;
+        height:780px;
+        padding: 11px;
+    }
+
+    .ingredient-card h3{
+        font-size: 1.5rem;
+        
+    }
+    
+    .ingredient-card ul{
+        list-style: none;
+    }
+    
+
+    
+}
+
+@media(max-width: 600px){
+    .ingredient-card{
+        width: 40%;
+        height: 1000px;
+        padding: 11px;
+    }    
+
+    .otras-recetas .receta{
+        margin-left: 40px;
+    }
+}
